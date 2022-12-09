@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Legend Font Style */
+body {
+    font: 11px sans-serif;
+    background-color: #ffffff;
+}
+
+#description {
+    /* position: relative; */
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+}
+
+.line-1 {
+    border: 1px dashed rgba(0, 0, 0, 0.272);
+    width: 100%;
+    position: absolute;
+    top: 290px;
+  }
+
+  .line-2 {
+    position:absolute;
+    left: 33.3%;
+    border-left: 2px dashed rgba(0, 0, 0, 0.272);
+    height: 290px;
+    top: 0px;
+  }
+
+  .line-3 {
+    position:absolute;
+    right: 33.3%;
+    border-left: 2px dashed rgba(0, 0, 0, 0.272);
+    height: 290px;
+
+    top: 0px;
+  }
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#div1 {
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: red; */
+}
+
+#div2 {
+    position: relative;
+    width: 33.4%;
+    height: 100%;
+    float: right;
+    /* background: green; */
+}
+
+#div3 {
+    position: relative;
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: blue; */
+}
+
+#div4 {
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: brown; */
+}
+
+#div5 {
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: orange; */
+}
+
+#div6 {
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: violet; */
+}
+
+#div7 {
+    width: 33.3%;
+    height: 33.3%;
+    float: left;
+    /* background: yellow; */
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }

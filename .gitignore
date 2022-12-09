@@ -1,0 +1,7 @@
+**/.DS_Store
+
+# data/
+.git/
+misc/
+.ipynb_checkpoints
+__pycache__
